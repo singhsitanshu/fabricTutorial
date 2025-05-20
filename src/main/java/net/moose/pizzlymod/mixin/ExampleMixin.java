@@ -1,4 +1,4 @@
-package net.moose.tutorialmod.mixin;
+package net.moose.pizzlymod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.moose.tutorialmod.mixin",
+	"package": "net.moose.pizzlymod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

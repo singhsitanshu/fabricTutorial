@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "pizzlymod",
 	"version": "${version}",
-	"name": "Tutorial Mod",
+	"name": "Pizzly Mod",
 	"description": "This is an example description!",
 	"authors": [
 		"Moose"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/pizzlymod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.moose.tutorialmod.TutorialMod"
+			"net.moose.pizzlymod.PizzlyMod"
 		],
 		"fabric-datagen": [
-			"net.moose.tutorialmod.TutorialModDataGenerator"
+			"net.moose.pizzlymod.PizzlyModDataGenerator"
 		],
 		"client": [
-			"net.moose.tutorialmod.TutorialModClient"
+			"net.moose.pizzlymod.PizzlyModClient"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"pizzlymod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
