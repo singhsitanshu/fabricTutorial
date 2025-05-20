@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type" : "minecraft:model",
+    "model": "pizzlymod:item/pizzly_hide"
+  }
+}
